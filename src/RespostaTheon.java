@@ -43,7 +43,7 @@ public class RespostaTheon {
                 menor = T;
                 posMenor = i;
             }
-        } // ..
+        } //
         System.out.println("pos = "+posMenor+" menor = "+menor);
     }
 
