@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class DomingoDeManha {
     public static void main(String[] args) throws IOException {
        // Scanner leitor = new Scanner(System.in);
-        File test = new File("./src/Teste.txt");
+        File test = new File("./src/Teste_domingo.txt");
         Scanner leitor = new Scanner(test);
         while ( leitor.hasNext() ) {
             String relogio = leitor.nextLine();
